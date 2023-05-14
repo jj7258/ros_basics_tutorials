@@ -6,6 +6,7 @@ def chatter_callback(message):
     print("I heard ", message.data)
     #get_caller_id(): Get fully resolved name of local node
     #rospy.loginfo(rospy.get_caller_id() + "I heard %s", message.data)
+    # ⬆️ This line can also be executed as well by removing the "#" and commenting the above print stmt
 
 def listener():
     
